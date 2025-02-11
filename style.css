@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+nav {
+  height: 100px;
+}
+
+.section1 {
+  background-color: #fdebf1;
+  margin-top: 0;
+  font-size: 20px;
+  height: 800px;
+}
+
+.titre1 {
+  height: 480px;
+}
+
+#entete {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 200px;
+}
+
+.section2 {
+  background-color: #cb5a90;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 55px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+@media (max-width: 798px) {
+  .section1 {
+    height: 125rem;
+  }
+
+  .section2 {
+    margin-top: 260px;
+  }
+
+  #entete {
+    font-size: 25px;
+    margin-top: 120px;
+  }
+
+  #texte {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .partie2 {
+    margin-top: 40px;
+  }
+
+  .card-routine {
+    margin-top: 50px;
+    height: 35rem;
+    text-align: center;
+    font-size: 10px;
+    width: 98%;
+  }
+
+  .custom-card {
+    height: 80rem;
+  }
+
+  .image-container2 {
+    margin-top: 150px;
+  }
+
+  .option {
+    margin-top: 110px;
+  }
+
+  .news {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -100px;
+  }
+
+  .form-small {
+    display: block;
+  }
+  .form2 {
+    display: block;
+    margin-top: 100px;
+  }
+
+  .decouverte {
+    margin-top: 40px;
+    padding: -15px;
+    font-size: 25px;
+  }
+}
+
+.card {
+  background-color: #f3f0f1;
+  height: 18rem;
+  padding-left: 15px;
+}
+
+.card-fille {
+  background-color: #fef6f9;
+  padding-left: 15px;
+}
+
+.row {
+  padding-left: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.transparent-img {
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.news {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#texte {
+  font-size: 18px;
+  margin-left: 22px;
+}
+
+.form {
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form2 {
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-small {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.form-small2 {
+  width: 500px;
+  margin-top: -70px;
+  display: flex;
+  margin-right: 90px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #cb5a90;
+  padding: 13px;
+}
+
+#titre {
+  font-weight: 100;
+}
+
+.titre-routine {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+.form-routine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  font-size: 23px;
+  padding: 20px;
+}
+
+hr {
+  width: 98%;
+}
+
+.decouverte {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.form-check {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  margin-left: 30%;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #cb5a90;
+  color: white;
+}
+
+.milieu {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  margin-top: 50px;
+}
+
+.milieu li {
+  list-style: none;
+}
+
+.images {
+  display: inline;
+  position: absolute;
+  right: 0;
+  margin-top: -180px;
+}
+
+.ajouter {
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+.etoile {
+  display: inline;
+}
+
+.partie2 {
+  margin-top: 130px;
+}
